@@ -1,7 +1,13 @@
 package com.pplove.common.core;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
 @Data
 public class ErrorResult {
 
@@ -41,6 +47,18 @@ public class ErrorResult {
         errorResult.setMessage(resultCode.getMessage());
         errorResult.setCode(resultCode.getCode());
         errorResult.setDetail(e.getMessage());
+
+        return errorResult;
+    }
+
+    /**
+     * 对参数校验进行封装
+     */
+    public static ErrorResult fail(ResultCode resultCode,String msgs){
+        ErrorResult errorResult = new ErrorResult();
+        errorResult.setMessage(resultCode.getMessage());
+        errorResult.setCode(resultCode.getCode());
+        errorResult.setDetail(msgs);
 
         return errorResult;
     }

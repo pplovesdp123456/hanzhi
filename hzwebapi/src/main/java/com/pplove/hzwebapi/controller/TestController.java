@@ -2,12 +2,15 @@ package com.pplove.hzwebapi.controller;
 
 import com.pplove.common.TestUtil;
 import com.pplove.common.core.Result;
+import com.pplove.common.core.ResultCode;
+import com.pplove.hzwebapi.config.BusinessException;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.concurrent.TimeoutException;
@@ -15,6 +18,7 @@ import java.util.concurrent.TimeoutException;
 @Api("测试类的文档")
 @Slf4j
 @RestController
+@Validated
 public class TestController {
 
 //    private Logger logger = LoggerFactory.getLogger(TestController.class);
@@ -54,10 +58,10 @@ public class TestController {
         Integer.valueOf("a");
     }
 
-//    @PostMapping("/error3")
-//    public void error3(){
-//        throw new Bus;
-//    }
+    @PostMapping("/error3")
+    public void error3(){
+        throw new BusinessException(ResultCode.AUTHORIZATION_CODE_ERROR);
+    }
 
     @PostMapping("/error4")
     public void error4() throws TimeoutException {
