@@ -1,4 +1,4 @@
-package com.pplove.hzwebapi.annotation;
+package com.pplove.common.annotation;
 
 
 import javax.validation.Constraint;

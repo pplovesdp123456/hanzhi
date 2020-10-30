@@ -1,10 +1,7 @@
-package com.pplove.hzwebapi.entity;
+package com.pplove.common.entity;
 
-import com.pplove.hzwebapi.annotation.Phone;
+import com.pplove.common.annotation.Phone;
 import lombok.Data;
-import lombok.Value;
-import org.hibernate.validator.constraints.Length;
-import org.springframework.validation.annotation.Validated;
 
 import javax.validation.constraints.*;
 import java.util.StringJoiner;

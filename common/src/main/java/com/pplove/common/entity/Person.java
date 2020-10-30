@@ -1,6 +1,5 @@
-package com.pplove.hzwebapi.entity;
+package com.pplove.common.entity;
 
-import com.google.common.base.Objects;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;

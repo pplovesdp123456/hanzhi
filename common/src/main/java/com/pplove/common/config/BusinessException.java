@@ -1,4 +1,4 @@
-package com.pplove.hzwebapi.config;
+package com.pplove.common.config;
 
 import com.pplove.common.core.ResultCode;
 import lombok.Data;

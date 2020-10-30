@@ -1,9 +1,8 @@
 package com.pplove.hzwebapi.controller;
 
-import com.pplove.hzwebapi.entity.Pet;
+import com.pplove.common.entity.Pet;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-import org.springframework.util.Assert;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -20,7 +19,7 @@ public class PetController {
         Pet p = pet;
         System.out.println(pet.toString());
 
-        Assert.notNull(null,"宠物不存在");
+//        Assert.notNull(null,"宠物不存在");
         return p;
 
     }

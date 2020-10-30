@@ -1,13 +1,7 @@
-package com.pplove.hzwebapi.annotation;
+package com.pplove.common.annotation;
 
-import com.fasterxml.jackson.databind.deser.DataFormatReaders;
-
-import javax.validation.Constraint;
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
-import javax.validation.constraints.Pattern;
-import java.lang.annotation.Documented;
-import java.util.regex.Matcher;
 
 
 public class PhoneValidator implements ConstraintValidator<Phone,String> {
