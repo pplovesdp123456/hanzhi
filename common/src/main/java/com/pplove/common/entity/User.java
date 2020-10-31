@@ -1,14 +1,18 @@
-package com.pplove.hzwebapi.model;
+package com.pplove.hzwebapi.entity;
 
-import com.baomidou.mybatisplus.annotation.*;
+import com.baomidou.mybatisplus.annotation.IdType;
+import java.util.Date;
+import com.baomidou.mybatisplus.annotation.Version;
+import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.FieldFill;
+import com.baomidou.mybatisplus.annotation.TableLogic;
+import com.baomidou.mybatisplus.annotation.TableField;
+import java.io.Serializable;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
-
-import java.io.Serializable;
-import java.util.Date;
 
 /**
  * <p>
@@ -21,8 +25,8 @@ import java.util.Date;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-@ApiModel(value="SysUser对象", description="用户表")
-public class SysUser implements Serializable {
+@ApiModel(value="User对象", description="用户表")
+public class User implements Serializable {
 
     private static final long serialVersionUID=1L;
 
@@ -48,8 +52,8 @@ public class SysUser implements Serializable {
     @ApiModelProperty(value = "是否被禁止登录")
     private String forbidden;
 
-//    @TableLogic(value = "")
     @ApiModelProperty(value = "是否被删除")
+    @TableLogic
     private String deleted;
 
     @ApiModelProperty(value = "工号")

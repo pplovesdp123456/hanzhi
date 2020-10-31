@@ -1,6 +1,6 @@
 package com.pplove.hzwebapi.service;
 
-import com.pplove.hzwebapi.entity.HzDevice;
+import com.pplove.hzwebapi.entity.WxUser;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
@@ -11,6 +11,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @author sdp1599181@163.com
  * @since 2020-10-31
  */
-public interface HzDeviceService extends IService<HzDevice> {
+public interface WxUserService extends IService<WxUser> {
 
 }

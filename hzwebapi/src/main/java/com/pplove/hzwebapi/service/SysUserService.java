@@ -1,10 +1,7 @@
 package com.pplove.hzwebapi.service;
 
-
+import com.pplove.hzwebapi.entity.SysUser;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.pplove.hzwebapi.model.SysUser;
-
-import java.util.List;
 
 /**
  * <p>
@@ -16,7 +13,4 @@ import java.util.List;
  */
 public interface SysUserService extends IService<SysUser> {
 
-    SysUser getSysUserById(long id);
-
-    List<SysUser> getSysUserAll();
 }

@@ -1,8 +1,8 @@
 package com.pplove.hzwebapi.service.serviceImpl;
 
-import com.pplove.hzwebapi.entity.HzDevice;
-import com.pplove.hzwebapi.mapper.HzDeviceMapper;
-import com.pplove.hzwebapi.service.HzDeviceService;
+import com.pplove.hzwebapi.entity.WxUserXcx;
+import com.pplove.hzwebapi.mapper.WxUserXcxMapper;
+import com.pplove.hzwebapi.service.WxUserXcxService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
@@ -15,6 +15,6 @@ import org.springframework.stereotype.Service;
  * @since 2020-10-31
  */
 @Service
-public class HzDeviceServiceImpl extends ServiceImpl<HzDeviceMapper, HzDevice> implements HzDeviceService {
+public class WxUserXcxServiceImpl extends ServiceImpl<WxUserXcxMapper, WxUserXcx> implements WxUserXcxService {
 
 }

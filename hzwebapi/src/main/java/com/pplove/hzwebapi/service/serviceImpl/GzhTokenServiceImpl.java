@@ -1,8 +1,8 @@
 package com.pplove.hzwebapi.service.serviceImpl;
 
-import com.pplove.hzwebapi.entity.HzDevice;
-import com.pplove.hzwebapi.mapper.HzDeviceMapper;
-import com.pplove.hzwebapi.service.HzDeviceService;
+import com.pplove.hzwebapi.entity.GzhToken;
+import com.pplove.hzwebapi.mapper.GzhTokenMapper;
+import com.pplove.hzwebapi.service.GzhTokenService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
@@ -15,6 +15,6 @@ import org.springframework.stereotype.Service;
  * @since 2020-10-31
  */
 @Service
-public class HzDeviceServiceImpl extends ServiceImpl<HzDeviceMapper, HzDevice> implements HzDeviceService {
+public class GzhTokenServiceImpl extends ServiceImpl<GzhTokenMapper, GzhToken> implements GzhTokenService {
 
 }

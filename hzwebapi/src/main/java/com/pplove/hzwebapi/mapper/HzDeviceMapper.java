@@ -1,8 +1,7 @@
 package com.pplove.hzwebapi.mapper;
 
-
+import com.pplove.hzwebapi.entity.HzDevice;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.pplove.hzwebapi.model.HzDevice;
 
 /**
  * <p>
