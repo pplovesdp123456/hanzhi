@@ -1,82 +1,67 @@
 package com.pplove.hzwebapi.model;
 
-import com.baomidou.mybatisplus.annotation.IdType;
-import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.*;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
 
 import java.io.Serializable;
-import java.time.LocalDateTime;
+import java.util.Date;
 
 /**
  * <p>
- * 管理员表
+ * 用户表
  * </p>
  *
- * @author cc447233453@163.com
- * @since 2020-05-12
+ * @author sdp1599181@163.com
+ * @since 2020-10-31
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
+@ApiModel(value="SysUser对象", description="用户表")
 public class SysUser implements Serializable {
 
-    private static final long serialVersionUID = 1L;
-    @TableId(value = "id",type = IdType.INPUT)
-    private Long id;
-    /**
-     * 登录帐号
-     */
+    private static final long serialVersionUID=1L;
+
+    @TableId(value = "id", type = IdType.AUTO)
+    private Integer id;
+
+    @ApiModelProperty(value = "登录帐号")
     private String username;
 
-    /**
-     * 密码
-     */
+    @ApiModelProperty(value = "密码")
     private String password;
 
-    /**
-     * 用户姓名
-     */
+    @ApiModelProperty(value = "用户姓名")
     private String nickname;
 
-    /**
-     * 创建时间
-     */
-    private LocalDateTime createTime;
+    @ApiModelProperty(value = "创建时间")
+    @TableField(fill = FieldFill.INSERT_UPDATE)
+    private Date createTime;
 
-    /**
-     * 最后登录时间
-     */
-    private LocalDateTime lastLoginTime;
+    @ApiModelProperty(value = "最后登录时间")
+    private Date lastLoginTime;
 
-    /**
-     * 是否被禁止登录
-     */
+    @ApiModelProperty(value = "是否被禁止登录")
     private String forbidden;
 
-    /**
-     * 是否被删除
-     */
+//    @TableLogic(value = "")
+    @ApiModelProperty(value = "是否被删除")
     private String deleted;
 
-    /**
-     * 工号
-     */
+    @ApiModelProperty(value = "工号")
     private String personnelJob;
 
-    /**
-     * 创建人ID
-     */
+    @ApiModelProperty(value = "创建人ID")
     private Integer createUserId;
 
     private Integer departmentId;
 
-    /**
-     * NFC信息表ID
-     */
+    @ApiModelProperty(value = "NFC信息表ID")
     private Integer nfcId;
-
 
 
 }
