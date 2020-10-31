@@ -9,8 +9,18 @@ logging:
 #  level: info
 #
 #
+mybatis:
+  #实体类所做包
+  type-aliases-package: controller
+  #mapper.xml所在位置
+  mapper-locations:  classpath:mapper/*.xml
 
 spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/hanzhi?useSSL=false&useUnicode=true&characterEncoding=utf-8&autoReconnect=true&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
   swagger2:
     enabled: true
 pplove:
