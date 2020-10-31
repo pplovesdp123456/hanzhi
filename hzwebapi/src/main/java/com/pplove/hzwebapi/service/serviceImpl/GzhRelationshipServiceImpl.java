@@ -1,6 +1,6 @@
 package com.pplove.hzwebapi.service.serviceImpl;
 
-import com.pplove.hzwebapi.entity.GzhRelationship;
+import com.pplove.common.entity.GzhRelationship;
 import com.pplove.hzwebapi.mapper.GzhRelationshipMapper;
 import com.pplove.hzwebapi.service.GzhRelationshipService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;

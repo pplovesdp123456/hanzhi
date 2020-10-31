@@ -1,7 +1,10 @@
 package com.pplove.hzwebapi.service;
 
-import com.pplove.hzwebapi.entity.SysUser;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.pplove.common.entity.SysUser;
+import com.pplove.hzwebapi.model.query.SysUserQuery;
+
+import java.util.List;
 
 /**
  * <p>
@@ -13,4 +16,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 public interface SysUserService extends IService<SysUser> {
 
+    List<SysUser> getUserList();
+    List<SysUser> getUserList(SysUserQuery query);
 }

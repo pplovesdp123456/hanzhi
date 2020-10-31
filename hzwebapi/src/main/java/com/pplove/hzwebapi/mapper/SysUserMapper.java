@@ -1,7 +1,7 @@
 package com.pplove.hzwebapi.mapper;
 
-import com.pplove.hzwebapi.entity.SysUser;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.pplove.common.entity.SysUser;
 
 /**
  * <p>
@@ -12,5 +12,6 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * @since 2020-10-31
  */
 public interface SysUserMapper extends BaseMapper<SysUser> {
+
 
 }

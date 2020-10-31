@@ -1,6 +1,6 @@
 package com.pplove.hzwebapi.service.serviceImpl;
 
-import com.pplove.hzwebapi.entity.HzTemHumLog;
+import com.pplove.common.entity.HzTemHumLog;
 import com.pplove.hzwebapi.mapper.HzTemHumLogMapper;
 import com.pplove.hzwebapi.service.HzTemHumLogService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;

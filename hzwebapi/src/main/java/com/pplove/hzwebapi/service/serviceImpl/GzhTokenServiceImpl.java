@@ -1,6 +1,6 @@
 package com.pplove.hzwebapi.service.serviceImpl;
 
-import com.pplove.hzwebapi.entity.GzhToken;
+import com.pplove.common.entity.GzhToken;
 import com.pplove.hzwebapi.mapper.GzhTokenMapper;
 import com.pplove.hzwebapi.service.GzhTokenService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;

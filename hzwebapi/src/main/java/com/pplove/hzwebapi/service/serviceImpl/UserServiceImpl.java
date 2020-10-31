@@ -1,6 +1,6 @@
 package com.pplove.hzwebapi.service.serviceImpl;
 
-import com.pplove.hzwebapi.entity.User;
+import com.pplove.common.entity.User;
 import com.pplove.hzwebapi.mapper.UserMapper;
 import com.pplove.hzwebapi.service.UserService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;

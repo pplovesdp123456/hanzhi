@@ -1,6 +1,6 @@
 package com.pplove.hzwebapi.mapper;
 
-import com.pplove.hzwebapi.entity.GzhRelationship;
+import com.pplove.common.entity.GzhRelationship;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

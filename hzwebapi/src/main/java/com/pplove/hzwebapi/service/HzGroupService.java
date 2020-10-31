@@ -1,6 +1,6 @@
 package com.pplove.hzwebapi.service;
 
-import com.pplove.hzwebapi.entity.HzGroup;
+import com.pplove.common.entity.HzGroup;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

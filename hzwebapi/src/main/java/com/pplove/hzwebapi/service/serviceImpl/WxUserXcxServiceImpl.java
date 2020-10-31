@@ -1,6 +1,6 @@
 package com.pplove.hzwebapi.service.serviceImpl;
 
-import com.pplove.hzwebapi.entity.WxUserXcx;
+import com.pplove.common.entity.WxUserXcx;
 import com.pplove.hzwebapi.mapper.WxUserXcxMapper;
 import com.pplove.hzwebapi.service.WxUserXcxService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;

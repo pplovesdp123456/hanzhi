@@ -1,4 +1,4 @@
-package com.pplove.hzwebapi.entity;
+package com.pplove.common.entity;
 
 import com.baomidou.mybatisplus.annotation.*;
 import io.swagger.annotations.ApiModel;

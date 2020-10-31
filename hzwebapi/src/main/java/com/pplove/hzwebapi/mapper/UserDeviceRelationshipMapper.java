@@ -1,6 +1,6 @@
 package com.pplove.hzwebapi.mapper;
 
-import com.pplove.hzwebapi.entity.UserDeviceRelationship;
+import com.pplove.common.entity.UserDeviceRelationship;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

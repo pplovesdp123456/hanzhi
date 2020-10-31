@@ -1,6 +1,6 @@
 package com.pplove.hzwebapi.service.serviceImpl;
 
-import com.pplove.hzwebapi.entity.HzGroup;
+import com.pplove.common.entity.HzGroup;
 import com.pplove.hzwebapi.mapper.HzGroupMapper;
 import com.pplove.hzwebapi.service.HzGroupService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;

@@ -22,7 +22,7 @@ public class MyBatisPlusCodeGenerator {
         GlobalConfig gc = new GlobalConfig();
         //配置生成的路径
         String projectPath = System.getProperty("user.dir");
-        gc.setOutputDir(projectPath + "/src/main/java");
+        gc.setOutputDir(projectPath + "/hzwebapi/src/main/java");
         gc.setAuthor("sdp1599181@163.com");
         //生成完不打开窗口
         gc.setOpen(false);
@@ -51,7 +51,7 @@ public class MyBatisPlusCodeGenerator {
 //        pc.setModuleName("hzwebapi");
         pc.setParent("com.pplove.hzwebapi");
         pc.setEntity("entity");
-        pc.setMapper("com/pplove/hzwebapi/mapper/xml");
+        pc.setMapper("mapper");
         pc.setService("service");
         pc.setServiceImpl("service.serviceImpl");
         mpg.setPackageInfo(pc);

@@ -1,6 +1,6 @@
 package com.pplove.hzwebapi.service.serviceImpl;
 
-import com.pplove.hzwebapi.entity.HzWechatUser;
+import com.pplove.common.entity.HzWechatUser;
 import com.pplove.hzwebapi.mapper.HzWechatUserMapper;
 import com.pplove.hzwebapi.service.HzWechatUserService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;

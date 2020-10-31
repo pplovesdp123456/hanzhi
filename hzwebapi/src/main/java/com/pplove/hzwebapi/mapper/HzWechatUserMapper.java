@@ -1,6 +1,6 @@
 package com.pplove.hzwebapi.mapper;
 
-import com.pplove.hzwebapi.entity.HzWechatUser;
+import com.pplove.common.entity.HzWechatUser;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

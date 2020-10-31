@@ -1,6 +1,6 @@
 package com.pplove.hzwebapi.service.serviceImpl;
 
-import com.pplove.hzwebapi.entity.AlarmBind;
+import com.pplove.common.entity.AlarmBind;
 import com.pplove.hzwebapi.mapper.AlarmBindMapper;
 import com.pplove.hzwebapi.service.AlarmBindService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;

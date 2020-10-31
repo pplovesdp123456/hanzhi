@@ -1,6 +1,6 @@
 package com.pplove.hzwebapi.service.serviceImpl;
 
-import com.pplove.hzwebapi.entity.SysGuide;
+import com.pplove.common.entity.SysGuide;
 import com.pplove.hzwebapi.mapper.SysGuideMapper;
 import com.pplove.hzwebapi.service.SysGuideService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;

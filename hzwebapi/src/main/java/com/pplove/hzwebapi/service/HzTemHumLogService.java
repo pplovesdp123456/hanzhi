@@ -1,6 +1,6 @@
 package com.pplove.hzwebapi.service;
 
-import com.pplove.hzwebapi.entity.HzTemHumLog;
+import com.pplove.common.entity.HzTemHumLog;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

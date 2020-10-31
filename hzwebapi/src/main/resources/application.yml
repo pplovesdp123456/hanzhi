@@ -1,12 +1,14 @@
 #
 logging:
   file:
-    #    path: log/
     path: log/
   pattern:
     console: "%d{yyyy-MM-dd HH:mm:ss.SSS} -%5p ${PID:-} [%15.15t] %-30.30C{1.} : %m%n"
     file: "%d{yyyy-MM-dd HH:mm:ss.SSS} -%5p ${PID:-} [%15.15t] %-30.30C{1.} : %m%n"
-#  level: info
+  level:
+    com.pplove.hzwebapi: debug # 增加数据库查询打印
+
+
 #
 #
 mybatis:
@@ -25,3 +27,8 @@ spring:
     enabled: true
 pplove:
   msg: getchar
+#mybatis-plus: #打印太多
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+server:
+  port: 10000

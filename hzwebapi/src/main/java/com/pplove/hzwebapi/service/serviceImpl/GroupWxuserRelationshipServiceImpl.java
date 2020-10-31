@@ -1,6 +1,6 @@
 package com.pplove.hzwebapi.service.serviceImpl;
 
-import com.pplove.hzwebapi.entity.GroupWxuserRelationship;
+import com.pplove.common.entity.GroupWxuserRelationship;
 import com.pplove.hzwebapi.mapper.GroupWxuserRelationshipMapper;
 import com.pplove.hzwebapi.service.GroupWxuserRelationshipService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;

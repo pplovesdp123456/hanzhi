@@ -1,6 +1,6 @@
 package com.pplove.hzwebapi.service.serviceImpl;
 
-import com.pplove.hzwebapi.entity.UserDeviceRelationship;
+import com.pplove.common.entity.UserDeviceRelationship;
 import com.pplove.hzwebapi.mapper.UserDeviceRelationshipMapper;
 import com.pplove.hzwebapi.service.UserDeviceRelationshipService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;

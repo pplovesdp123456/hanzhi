@@ -1,6 +1,6 @@
 package com.pplove.hzwebapi.mapper;
 
-import com.pplove.hzwebapi.entity.AlarmBind;
+import com.pplove.common.entity.AlarmBind;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

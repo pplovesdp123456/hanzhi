@@ -1,6 +1,6 @@
 package com.pplove.hzwebapi.service.serviceImpl;
 
-import com.pplove.hzwebapi.entity.SysPermission;
+import com.pplove.common.entity.SysPermission;
 import com.pplove.hzwebapi.mapper.SysPermissionMapper;
 import com.pplove.hzwebapi.service.SysPermissionService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;

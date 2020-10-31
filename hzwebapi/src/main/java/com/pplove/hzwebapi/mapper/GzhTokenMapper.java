@@ -1,6 +1,6 @@
 package com.pplove.hzwebapi.mapper;
 
-import com.pplove.hzwebapi.entity.GzhToken;
+import com.pplove.common.entity.GzhToken;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

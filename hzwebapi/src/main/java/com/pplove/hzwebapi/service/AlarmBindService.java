@@ -1,6 +1,6 @@
 package com.pplove.hzwebapi.service;
 
-import com.pplove.hzwebapi.entity.AlarmBind;
+import com.pplove.common.entity.AlarmBind;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

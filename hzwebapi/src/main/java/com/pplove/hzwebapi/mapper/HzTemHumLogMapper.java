@@ -1,6 +1,6 @@
 package com.pplove.hzwebapi.mapper;
 
-import com.pplove.hzwebapi.entity.HzTemHumLog;
+import com.pplove.common.entity.HzTemHumLog;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

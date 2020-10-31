@@ -1,10 +1,13 @@
 package com.pplove.hzwebapi.service.serviceImpl;
 
-import com.pplove.hzwebapi.entity.HzDevice;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.pplove.common.entity.HzDevice;
 import com.pplove.hzwebapi.mapper.HzDeviceMapper;
 import com.pplove.hzwebapi.service.HzDeviceService;
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 /**
  * <p>
@@ -16,5 +19,14 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class HzDeviceServiceImpl extends ServiceImpl<HzDeviceMapper, HzDevice> implements HzDeviceService {
+
+    @Autowired
+    HzDeviceMapper hzDeviceMapper;
+
+
+    @Override
+    public List<HzDevice> getDeviceList() {
+        return hzDeviceMapper.selectList(null);
+    }
 
 }

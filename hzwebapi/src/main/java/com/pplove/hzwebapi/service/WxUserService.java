@@ -1,6 +1,6 @@
 package com.pplove.hzwebapi.service;
 
-import com.pplove.hzwebapi.entity.WxUser;
+import com.pplove.common.entity.WxUser;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

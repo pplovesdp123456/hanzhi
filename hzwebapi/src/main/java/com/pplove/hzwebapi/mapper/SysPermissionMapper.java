@@ -1,6 +1,6 @@
 package com.pplove.hzwebapi.mapper;
 
-import com.pplove.hzwebapi.entity.SysPermission;
+import com.pplove.common.entity.SysPermission;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

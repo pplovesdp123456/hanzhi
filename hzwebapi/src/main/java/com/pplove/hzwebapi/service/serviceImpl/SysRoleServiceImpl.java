@@ -1,6 +1,6 @@
 package com.pplove.hzwebapi.service.serviceImpl;
 
-import com.pplove.hzwebapi.entity.SysRole;
+import com.pplove.common.entity.SysRole;
 import com.pplove.hzwebapi.mapper.SysRoleMapper;
 import com.pplove.hzwebapi.service.SysRoleService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;

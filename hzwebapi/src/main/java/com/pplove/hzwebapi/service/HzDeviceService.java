@@ -1,7 +1,9 @@
 package com.pplove.hzwebapi.service;
 
-import com.pplove.hzwebapi.entity.HzDevice;
+import com.pplove.common.entity.HzDevice;
 import com.baomidou.mybatisplus.extension.service.IService;
+
+import java.util.List;
 
 /**
  * <p>
@@ -13,4 +15,5 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 public interface HzDeviceService extends IService<HzDevice> {
 
+    List<HzDevice> getDeviceList();
 }

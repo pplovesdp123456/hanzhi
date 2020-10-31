@@ -1,6 +1,6 @@
 package com.pplove.hzwebapi.service;
 
-import com.pplove.hzwebapi.entity.HzWechatUser;
+import com.pplove.common.entity.HzWechatUser;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
